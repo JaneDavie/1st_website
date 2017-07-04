@@ -1,0 +1,64 @@
+/*CSS RESET*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*GENERAL HELP CLASSES*/
+.centered {
+  text-align: center;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+section, header,footer{
+  padding: 5%;
+}
+
+header{
+  text-align: center;
+  background-image: url(../Images/headerapple.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+h2{
+  text-align: center;
+}
+a{
+  font-size: 1.5rem;
+  padding: 4.6%;
+  text-decoration: none;
+}
+.greybox{
+  background-color: grey; padding: 10%
+}
+.greybox div{
+  background-color: white; padding: 5%;
+}
+
+
+header a{
+  color: white;
+
+}
+
+input, textarea, button{
+  width: 100%;
+  margin: 2%;
+}
+
+
+
+footer{
+  padding: 2%;
+}
